@@ -1,18 +1,7 @@
 
 /* Your CSS Code here. */
 .holder {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
-.item {
-  width: 100px;  /* Set a fixed width for demonstration */
-  height: 100px; /* Set a fixed height for demonstration */
-  background-color: lightgray; /* Background color for visibility */
-  display: flex;
-  align-items: center; /* Center content vertically */
-  justify-content: center; /* Center content horizontally */
-  margin: 5px; /* Optional: Adds spacing between items */
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
